@@ -249,11 +249,12 @@ and (orientation: portrait) {
         border: none;
     }
     .form > form{
+        box-shadow: none;
         box-sizing: border-box;
         width: inherit;
     }
     .form_input{
-        width: 94%;
+        width: 90%;
     }
     .btn{
         left: 80%;
