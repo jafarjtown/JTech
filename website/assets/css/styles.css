@@ -232,7 +232,8 @@ ul > li:hover .link{
 }
 
 /* 620 mobile */
-@media screen and (max-width: 620px) {
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
     *{
         box-sizing: border-box;
     }
@@ -240,7 +241,7 @@ ul > li:hover .link{
         font-size: .5em;
     }
     .link{
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .form{
         width: 100%;
